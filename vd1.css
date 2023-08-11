@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 500px;
+    height: 500px;
+    background: red;
+    transition: all 5s;
+}
+@media screen and (max-width: 800px) {
+    div{
+        background: blue;
+    }    
+}

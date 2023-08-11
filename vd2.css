@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.juststar{
+    justify-content: start !important;
+}
+.header{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+}
+.headerlef, .headerrigh{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.headerlef div{
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px 25px;
+    font-family: "roboto", sans-serif;
+}
+.headerlef div:hover{
+    cursor: pointer;
+    color: #000;
+    background-color: #ccc;
+}
+.headerrigh .search{
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+.search:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #f44336;
+}
+.more{
+    position: relative;
+}
+.hovermore{
+    background: white !important;
+    color: black;
+    position: absolute;
+    padding: 0 !important;
+    top: 60px;
+    left: 0;
+    display: none;
+}
+.more:hover {
+    color: none !important;
+    background-color: #ccc !important;
+}
+.more:hover .hovermore{
+    display: block;
+}
